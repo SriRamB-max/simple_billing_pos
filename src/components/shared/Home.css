@@ -1,0 +1,24 @@
+.container {
+    padding-left: 2rem;
+    position: relative;
+    top: 8rem;
+}
+
+@media screen and (min-width: 26.9375em) and (max-width: 57em) {
+   .container {
+    padding-left: 0;
+    position: relative;
+    left: 3rem;
+    top: 10rem;
+}
+}
+
+@media screen and (min-width: 57.0625em) {
+    .container {
+    padding-left: 0;
+    max-width: 50%;
+    position: relative;
+    left: 15rem;
+    top: 10rem;
+}
+}

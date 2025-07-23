@@ -1,0 +1,29 @@
+.bill-container {
+    padding-left: 2rem;
+    max-width: 50%;
+    position: relative;
+    top: 1rem;
+}
+
+@media screen and (min-width: 26.9375em) and (max-width: 57em) {
+   .bill-container {
+    padding-left: 0;
+    position: relative;
+    left: 3rem;
+}
+}
+
+@media screen and (min-width: 57.0625em) {
+    .bill-container {
+    padding-left: 0;
+    max-width: 50%;
+    position: relative;
+    left: 15rem;
+}
+}
+
+@media print {
+  .print-button {
+    display: none;
+  }
+}
