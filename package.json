@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/SriRamB-max/simple_billing_pos",
+  "homepage":"https://sriramb-max.github.io/simple_billing_pos/",
   "name": "simple_billing_pos",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
