@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <UserProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/simple_billing_pos">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/billing" element={<BillingPage />} />
