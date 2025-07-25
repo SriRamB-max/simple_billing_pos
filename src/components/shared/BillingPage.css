@@ -1,27 +1,20 @@
-.bill-container {
-    padding-left: 2rem;
-    max-width: 50%;
-    position: relative;
-    top: 1rem;
+.container-bill {
+    width: 100%;
+    max-width: 1024px;
+    background: linear-gradient(grey, white);
 }
 
-@media screen and (min-width: 26.9375em) and (max-width: 57em) {
-   .bill-container {
-    padding-left: 0;
-    position: relative;
-    left: 3rem;
-}
-}
-
-@media screen and (min-width: 57.0625em) {
-    .bill-container {
-    padding-left: 0;
-    max-width: 50%;
-    position: relative;
-    left: 15rem;
-}
+.container-box {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+body {
+  background-color: black;
+  text-align: center;
+}
 @media print {
   .print-button {
     display: none;
